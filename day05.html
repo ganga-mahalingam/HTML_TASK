@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Form</title>
+</head>
+<body>
+    <h3 align="center">Job Application Form</h3>
+    <center>
+
+    
+    <form>
+        <Fieldset>
+         <legend>Personal Information</legend>
+            <div>
+                <label>Enter Name:</label>
+                <input type="text" name="name">
+                </div>
+            <div>
+                <label>Enter Email:</label>
+                <input type="email" name="email">
+                </div>
+            <div>
+                <label>Enter Password:</label>
+                <input type="password" name="pass">
+                </div>
+            <div>
+                <label>Experience:</label>
+                <input type="radio" name="exp" value="fresher">Fresher
+                <input type="radio" name="exp" value="experienced">Experienced
+                <input type="radio" name="exp" value="expert">Expert
+            </div>
+        </Fieldset>
+        <fieldset>
+            <legend>Professional Information</legend>
+            <div>
+                <label>Area Of Expertise:</label>
+                <input type="checkbox" name="exp" value="web">Web Development
+                <input type="checkbox" name="exp" value="mobile">Mobile Development
+                <input type="checkbox" name="exp" value="data">Data Science
+                <input type="checkbox" name="exp" value="ai">Artificial Intelligence
+                </div>
+                <div>
+                    <label>Upload Resume</label>
+                    <input type="file" required>
+                </div>
+                <label>Why should we hire you?</label>
+                <textarea rows="4"></textarea>
+
+        </fieldset>    
+    </form>
+    </center>
+</body>
+</html>
